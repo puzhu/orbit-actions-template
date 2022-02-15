@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         tag:
-          - firsttag
+          - kinetica
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
